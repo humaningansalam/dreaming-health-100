@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dreaming-health-100"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
@@ -13,6 +13,7 @@ langchain = "^0.3.9"
 langchain-cohere = "^0.3.3"
 langchain-community = "^0.3.9"
 psycopg2-binary = "^2.9.10"
+faiss-cpu = "^1.9.0.post1"
 
 
 [build-system]
